@@ -1,0 +1,16 @@
+# Summary
+
+* [Rails4でのアプリ開発の基礎を学ぶ](firstStep/README.md)
+* [まずはアプリを触ってみよう](firstStep/step1.md)
+* [すでに設定済のRails4で作られたアプリのレイアウトを変更してみましょう]()
+* [ERBファイルを編集してレイアウトを変更しよう]()   
+* [すでに設定済のRails4で作られたアプリのレイアウトを変更してみましょう]()
+* [Railsの思想についてちょっとご紹介](firstStep/aboutRails.md)
+* [r](firstStep/step4.md)
+* [y](firstStep/step5.md)
+* [s](firstStep/step6.md)   
+* [s](firstStep/step7.md)
+* [1](firstStep/step8.md)   
+* [Google Map API連携アプリを開発する](googlemapsapi/README.md)
+* [オリジナル機能を追加してもらう](advanced/README.md)
+* [参考情報](reference.md)
