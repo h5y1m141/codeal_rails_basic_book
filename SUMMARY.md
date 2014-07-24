@@ -8,7 +8,7 @@
     * [ToDOアプリのカスタマイズの前に簡単にMVCの概念の紹介](firstStep/aboutMVC.md)
     * [ユーザインタフェースをカスタマイズしましょう](firstStep/aboutView.md)
         * [asssetsの概念の説明](firstStep/aboutAsssets.md)
-        * [Rails4でBootstrapを利用する](firstStep/prepareBootstrap.md)
+        * [あらかじめ作成済のCSSを配置する](firstStep/prepareBootstrap.md)
         * [作業前にSublimeTextの便利機能を知る](firstStep/learnEmmetMode.md)
         * [テンプレートファイルの編集をしましょう](firstStep/reviseERB.md)
     * [Controllerのカスタマイズ](firstStep/aboutController.md)
