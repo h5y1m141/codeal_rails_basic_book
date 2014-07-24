@@ -6,7 +6,7 @@
     * [Railsのプロジェクトの構造を理解する](firstStep/aboutRailsProjectStructure.md) 
     * [アプリのひな形を作る便利機能のscaffoldの紹介](firstStep/aboutScaffold.md)
     * [ToDOアプリのカスタマイズの前に簡単にMVCの概念の紹介](firstStep/aboutMVC.md)
-    * [Viewのカスタマイズ](firstStep/aboutView.md)
+    * [ユーザインタフェースをカスタマイズしましょう](firstStep/aboutView.md)
         * [asssetsの概念の説明](firstStep/aboutAsssets.md)
         * [Rails4でBootstrapを利用する](firstStep/prepareBootstrap.md)
         * [作業前にSublimeTextの便利機能を知る](firstStep/learnEmmetMode.md)
