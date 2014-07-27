@@ -15,6 +15,6 @@
     * [Controllerの役割とルーティングの概念説明](firstStep/aboutController.md)
     * [Modelの役割](firstStep/aboutModel.md)
         * [Modelを気軽に扱うのに便利なPryの説明](firstStep/aboutPry.md)
-* [Google Map API連携アプリを開発する](googlemapsapi/README.md)
+* [Google Maps API連携アプリを開発する](googleMapsAPI/README.md)
 * [オリジナル機能を追加してもらう](advanced/README.md)
 * [参考情報](reference.md)
