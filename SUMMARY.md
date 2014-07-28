@@ -18,6 +18,6 @@
     * [Modelの役割](firstStep/aboutModel.md)
         * [Railsのconsole機能を使ってModelの動作を確認してみましょう](firstStep/aboutIrb.md)
         * [Modelの内容を書き換えてみる](firstStep/reviseModel.md) 
-* [Google Map API連携アプリを開発する](googlemapsapi/README.md)
+    * [Google Maps API連携アプリを開発する](googleMapsAPI/README.md)
 * [オリジナル機能を追加してもらう](advanced/README.md)
 * [参考情報](reference.md)
