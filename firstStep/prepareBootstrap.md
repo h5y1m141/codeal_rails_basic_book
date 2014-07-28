@@ -58,10 +58,10 @@ Bootstrapのサイトから必要なファイルをダウンロードするた�
 
 解凍完了すると、bootstrapフォルダの中に、bootstrap-3.2.0-distというフォルダが出来上がり、その中にcssというフォルダがあるのでそれを開きます。
 
-その中に、bootstrap.cssがあるので、Desktop上の現在作業中のRailsプロジェクトであるtodoフォルダの中のvendorフォルダのassetsフォルダのstylesheetsフォルダにコピーします。
+その中に、bootstrap.cssがあるので、Desktop上の現在作業中のRailsプロジェクトであるtodoフォルダの中のappフォルダのassetsフォルダのstylesheetsフォルダにコピーします。
 
 
-![](../image/shot-2014-07-25-7_10_13.png)
+![](../image/shot-2014-07-28-9_43_44.png)
 
 ### bootstrap.cssを読み込めるようにするためテキストエディタでマニフェストファイルを編集する
 
@@ -80,7 +80,7 @@ application.cssの最後の行がこのようになっているかと思いま�
 *= require_tree .
 ```
 
-以下のように *= require bootstrapの一行を追加することで、先ほど配置したbootstrap.cssが利用できる状態になります
+以下のように** *= require bootstrap **の一行を追加することで、先ほど配置したbootstrap.cssが利用できる状態になります
 
 ```css
 *= require bootstrap
