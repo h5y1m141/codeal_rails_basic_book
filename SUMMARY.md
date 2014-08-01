@@ -19,7 +19,7 @@
     * [Modelの役割](firstStep/aboutModel.md)
         * [Railsのconsole機能を使ってModelの動作を確認してみましょう](firstStep/aboutIrb.md)
         * [Modelの内容を書き換えてみる](firstStep/reviseModel.md)
-        * [タスク登録時に入力内容のチェック処理を入れる](firstStep/enableValidation)
+        * [タスク登録時に入力内容のチェック処理を入れる](firstStep/enableValidation.md)
 * [Google Maps API連携アプリを開発する](googleMapsAPI/README.md)
 * [オリジナル機能を追加してもらう](advanced/README.md)
 * [参考情報](reference.md)
