@@ -16,5 +16,6 @@
     * [Modelの役割](firstStep/aboutModel.md)
         * [Modelを気軽に扱うのに便利なPryの説明](firstStep/aboutPry.md)
 * [Google Maps API連携アプリを開発する](googleMapsAPI/README.md)
+    * [プロジェクト設定と必要なRubyのライブラリのインストール](googleMapsAPI/setupProject.md)
 * [オリジナル機能を追加してもらう](advanced/README.md)
 * [参考情報](reference.md)
