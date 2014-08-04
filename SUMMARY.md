@@ -22,5 +22,6 @@
         * [タスク登録時に入力内容のチェック処理を入れる](firstStep/enableValidation.md)
 * [Google Maps API連携アプリを開発する](googleMapsAPI/README.md)
     * [プロジェクト設定と必要なRubyのライブラリのインストール](googleMapsAPI/setupProject.md)
+    * [場所の情報を格納するModelを設定する](googleMapsAPI/setupModel.md) 
 * [オリジナル機能を追加してもらう](advanced/README.md)
 * [参考情報](reference.md)
