@@ -12,6 +12,7 @@
         * [作業前にSublimeTextの便利機能をインストールする](firstStep/prepareEmmetMode.md)
         * [効率的にコーディングするためにEmmetモードの機能を知る](firstStep/learnEmmetMode.md)
         * [テンプレートファイルの編集をしましょう](firstStep/reviseERB.md)
+        * [編集したERBの処理について解説](firstStep/explainERB.md)
     * [Controllerの役割](firstStep/aboutController.md)
         * [一覧画面を表示する処理を書き換えてみましょう](firstStep/reviseIndexAction.md)
         * [詳細表示画面を表示する処理を書き換えてみましょう](firstStep/reviseShowAction.md)
