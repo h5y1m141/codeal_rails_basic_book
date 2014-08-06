@@ -1,7 +1,7 @@
 {
-    "pdf":{
-        "toc":true,
-        "pageNumbers":true,
-        "paperSize":"a4"
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "paperSize": "a4"
     }
 }

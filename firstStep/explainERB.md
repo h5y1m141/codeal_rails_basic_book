@@ -1,6 +1,6 @@
-## 編集したERBの処理について解説
+## 編集したERBの処理について解説１
 
-先ほど編集していただいた/app/views/layouts/application.html.erbのERBの処理についてポイントになるところを解説します。
+先ほど編集していただいたERBのファイルですが、まずは/app/views/layouts/application.html.erbのERBの処理についてポイントになるところを解説します。
 
 ## /app/views/layouts/application.html.erbの役割について
 
@@ -11,7 +11,7 @@
 
 このファイルは各ページで共通となる要素を記述することを目的としているため
 
-- <HTML><head><body>といったタグは各ページ共通になるので、まずはこのファイルに共通要素を記述
+- HTML,head,bodyといったタグは各ページ共通になるので、まずはこのファイルに共通要素を記述
 - 各ページで共通利用されるJavaScriptのファイルやCSS（スタイルシート）のファイルの読み込み処理もこのファイルに記述
 
 という処理を行います。
@@ -22,19 +22,17 @@
 
 application.html.erbのheadタグ内に
 
-```erb
+```html
 <%= stylesheet_link_tag "application", :media => "all" %>
 <%= javascript_include_tag "application" %>
 ```
 
-という記述があるかと思いますが、これがあることで
+という記述があるかと思いますが、これがあることで以下のようになります。
 
-- stylesheet_link_tag "application"
-    - アセットフォルダの**application.css**が読み込まれる
-- javascript_include_tag "application"
-    - アセットフォルダの**application.js**が読み込まれる
+- stylesheet_link_tag "application"の部分の処理としてアセットフォルダの**application.css**が読み込まれる
+- javascript_include_tag "application"の部分の処理としてアセットフォルダの**application.js**が読み込まれる
 
-という処理が実施されます。
+
 
 ### ページ毎にタイトルの表示を変更したい
 
@@ -42,7 +40,7 @@ application.html.erbは各ページで共通となる要素を記述していく
 
 そのために、application.html.erbのtitleタグを
 
-```erb
+```html
 <title><%= content_for?(:title) ? yield(:title) : "Todo" %></title>
 ```
 
@@ -52,7 +50,7 @@ application.html.erbは各ページで共通となる要素を記述していく
 
 show.html.erb のタイトルを**タスク詳細** という表示にしたい場合には
 
-```erb
+```html
 <% content_for :title do %>
 タスク詳細
 <% end %>
@@ -60,7 +58,7 @@ show.html.erb のタイトルを**タスク詳細** という表示にしたい�
 
 という記述をファイル先頭にこのように追記することで、このページのタイトルは**タスク詳細** という表示になります。
 
-```erb
+```html
 <% content_for :title do %>
 タスク詳細
 <% end %>
@@ -74,7 +72,7 @@ show.html.erb のタイトルを**タスク詳細** という表示にしたい�
 
 もしも、それぞれのファイルに
 
-```erb
+```html
 <% content_for :title do %>
 （表示したいタイトル名）
 <% end %>
@@ -88,7 +86,6 @@ JavaScript、CSSの読み込みを行ってることを前述しましたが、a
 
 #### マークアップ箇所と実際の画面のイメージの対比
 
-画面イメージはこのようになるかと思います
 
 ![](../image/explain_markup.png)
 
@@ -139,7 +136,7 @@ JavaScript、CSSの読み込みを行ってることを前述しましたが、a
 
 application.html.erbは各ページに共通の処理をしてると説明をしましたが、各ページに固有の処理を読み込むために
 
-```erb
+```ruby
 <%= yield %>
 ```
 
@@ -147,7 +144,7 @@ application.html.erbは各ページに共通の処理をしてると説明をし
 
 今回は、2カラムのレイアウトの右側の広いところに、各ページの要素を表示させたいため
 
-```erb
+```html
 <div class="span2"></div>
 <div class="span10">
   <%= yield %>
@@ -156,7 +153,7 @@ application.html.erbは各ページに共通の処理をしてると説明をし
 
 としてます。試しに
 
-```erb
+```html
 <div class="span2">
   <%= yield %>
 </div>
@@ -166,3 +163,4 @@ application.html.erbは各ページに共通の処理をしてると説明をし
 という形に書き換えて、実際にどのように表示されるか確認してみましょう。
 
 
+次の章で、ERB内部で利用できるRubyの記述について代表的なものをいくつか説明します
